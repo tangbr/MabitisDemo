@@ -1,5 +1,7 @@
 package com.attoronto.mybatis.mapper;
 
+import com.attoronto.mybatis.pojo.User;
+
 public interface UserMapper {
     /**
      * MyBatis 面向接口编程的两个一致：
@@ -22,4 +24,14 @@ public interface UserMapper {
      * 删除用户信息
      */
     void deleteUser();
+    /**
+     * 根据id查询用户信息
+     */
+     User getUserById();
+
+
+
+
+
+
 }

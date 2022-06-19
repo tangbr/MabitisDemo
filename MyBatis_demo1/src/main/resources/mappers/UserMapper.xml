@@ -16,6 +16,16 @@
     <delete id="deleteUser">
         delete from t_user where id = 5
     </delete>
+    <!--User getUserById();-->
+
+    <!--
+    查询功能的标签必须设置resultType 或 resultMap
+    resultType: 设置默认的映射关系
+    resultMap： 设置自定义的映射关系
+    -->
+    <select id="getUserById" resultType="com.attoronto.mybatis.pojo.User">
+           select * from t_user where id=3
+    </select>
 
 
 </mapper>
