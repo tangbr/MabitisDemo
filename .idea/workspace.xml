@@ -4,23 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0a10fcfe-3508-4648-b3f5-f88092cfe4ba" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBatis.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBatis_demo1/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBatis_demo1/src/main/java/com/attoronto/mybatis/mapper/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBatis_demo1/src/main/java/com/attoronto/mybatis/pojo/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBatis_demo1/src/main/resources/log4j.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBatis_demo1/src/main/resources/mappers/UserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBatis_demo1/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBatis_demo1/src/test/java/com/attoronto/mybatis/test/MyBatisTest.java" afterDir="false" />
+    <list default="true" id="0a10fcfe-3508-4648-b3f5-f88092cfe4ba" name="Changes" comment="1st">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyBatis_demo1/src/main/java/com/attoronto/mybatis/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/MyBatis_demo1/src/main/java/com/attoronto/mybatis/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyBatis_demo1/src/main/resources/mappers/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MyBatis_demo1/src/main/resources/mappers/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyBatis_demo1/src/test/java/com/attoronto/mybatis/test/MyBatisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MyBatis_demo1/src/test/java/com/attoronto/mybatis/test/MyBatisTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +68,23 @@
       <recent name="C:\Users\bruce\IdeaProjects\MyBatis\MyBatis_demo1" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.MyBatisTest.testCRUD">
+    <configuration name="MyBatisTest.testCRUD" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyBatis_demo1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.attoronto.mybatis.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.attoronto.mybatis.test" />
+      <option name="MAIN_CLASS_NAME" value="com.attoronto.mybatis.test.MyBatisTest" />
+      <option name="METHOD_NAME" value="testCRUD" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MyBatisTest.testMyBatis" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MyBatis_demo1" />
       <extension name="coverage">
@@ -97,8 +101,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MyBatisTest.testUpdate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyBatis_demo1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.attoronto.mybatis.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.attoronto.mybatis.test" />
+      <option name="MAIN_CLASS_NAME" value="com.attoronto.mybatis.test.MyBatisTest" />
+      <option name="METHOD_NAME" value="testUpdate" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MyBatisTest.testCRUD" />
+        <item itemvalue="JUnit.MyBatisTest.testUpdate" />
         <item itemvalue="JUnit.MyBatisTest.testMyBatis" />
       </list>
     </recent_temporary>
@@ -112,6 +134,14 @@
       <option name="presentableId" value="Default" />
       <updated>1655581720949</updated>
     </task>
+    <task id="LOCAL-00001" summary="1st">
+      <created>1655616651189</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1655616651189</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -124,5 +154,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1st" />
+    <option name="LAST_COMMIT_MESSAGE" value="1st" />
   </component>
 </project>
