@@ -4,24 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0a10fcfe-3508-4648-b3f5-f88092cfe4ba" name="Changes" comment="2st">
-      <change afterPath="$PROJECT_DIR$/MyBatis_demo1/src/main/resources/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBatis_demo2/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBatis_demo2/src/main/java/com/attoronto/mybatis/mapper/ParameterMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBatis_demo2/src/main/java/com/attoronto/mybatis/pojo/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBatis_demo2/src/main/java/com/attoronto/mybatis/utils/SqlSessionUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBatis_demo2/src/main/resources/com/attoronto/mybatis/mapper/ParameterMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBatis_demo2/src/main/resources/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBatis_demo2/src/main/resources/log4j.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBatis_demo2/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBatis_demo2/src/test/java/com/attoronto/mybatis/test/ParameterMapperTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="0a10fcfe-3508-4648-b3f5-f88092cfe4ba" name="Changes" comment="3st">
+      <change afterPath="$PROJECT_DIR$/MyBatis_demo2/src/main/java/com/attoronto/mybatis/mapper/SelectMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBatis_demo2/src/main/resources/com/attoronto/mybatis/mapper/Selectmapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBatis_demo2/src/test/java/com/attoronto/mybatis/test/SelectMapperTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyBatis_demo1/src/main/java/com/attoronto/mybatis/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/MyBatis_demo1/src/main/java/com/attoronto/mybatis/mapper/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyBatis_demo1/src/main/resources/mappers/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MyBatis_demo1/src/main/resources/com/attoronto/mybatis/mapper/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyBatis_demo1/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MyBatis_demo1/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyBatis_demo1/src/test/java/com/attoronto/mybatis/test/MyBatisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MyBatis_demo1/src/test/java/com/attoronto/mybatis/test/MyBatisTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,8 +78,8 @@
       <recent name="com.attoronto.mybatis.pojo" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ParameterMapperTest.testCheckLoginByParam">
-    <configuration name="ParameterMapperTest.testCheckLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.SelectMapperTest.testGetAllUserToMap">
+    <configuration name="SelectMapperTest.testGetAllUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MyBatis_demo2" />
       <extension name="coverage">
         <pattern>
@@ -101,14 +88,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.attoronto.mybatis.test" />
-      <option name="MAIN_CLASS_NAME" value="com.attoronto.mybatis.test.ParameterMapperTest" />
-      <option name="METHOD_NAME" value="testCheckLogin" />
+      <option name="MAIN_CLASS_NAME" value="com.attoronto.mybatis.test.SelectMapperTest" />
+      <option name="METHOD_NAME" value="testGetAllUser" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ParameterMapperTest.testCheckLoginByMap" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SelectMapperTest.testGetAllUserToMap" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MyBatis_demo2" />
       <extension name="coverage">
         <pattern>
@@ -117,14 +104,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.attoronto.mybatis.test" />
-      <option name="MAIN_CLASS_NAME" value="com.attoronto.mybatis.test.ParameterMapperTest" />
-      <option name="METHOD_NAME" value="testCheckLoginByMap" />
+      <option name="MAIN_CLASS_NAME" value="com.attoronto.mybatis.test.SelectMapperTest" />
+      <option name="METHOD_NAME" value="testGetAllUserToMap" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ParameterMapperTest.testCheckLoginByParam" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SelectMapperTest.testGetCount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MyBatis_demo2" />
       <extension name="coverage">
         <pattern>
@@ -133,14 +120,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.attoronto.mybatis.test" />
-      <option name="MAIN_CLASS_NAME" value="com.attoronto.mybatis.test.ParameterMapperTest" />
-      <option name="METHOD_NAME" value="testCheckLoginByParam" />
+      <option name="MAIN_CLASS_NAME" value="com.attoronto.mybatis.test.SelectMapperTest" />
+      <option name="METHOD_NAME" value="testGetCount" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ParameterMapperTest.testGetUserByUsername" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SelectMapperTest.testGetUserById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MyBatis_demo2" />
       <extension name="coverage">
         <pattern>
@@ -149,14 +136,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.attoronto.mybatis.test" />
-      <option name="MAIN_CLASS_NAME" value="com.attoronto.mybatis.test.ParameterMapperTest" />
-      <option name="METHOD_NAME" value="testGetUserByUsername" />
+      <option name="MAIN_CLASS_NAME" value="com.attoronto.mybatis.test.SelectMapperTest" />
+      <option name="METHOD_NAME" value="testGetUserById" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ParameterMapperTest.testInsertUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SelectMapperTest.testGetUserByIdToMap" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MyBatis_demo2" />
       <extension name="coverage">
         <pattern>
@@ -165,8 +152,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.attoronto.mybatis.test" />
-      <option name="MAIN_CLASS_NAME" value="com.attoronto.mybatis.test.ParameterMapperTest" />
-      <option name="METHOD_NAME" value="testInsertUser" />
+      <option name="MAIN_CLASS_NAME" value="com.attoronto.mybatis.test.SelectMapperTest" />
+      <option name="METHOD_NAME" value="testGetUserByIdToMap" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -174,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ParameterMapperTest.testCheckLoginByParam" />
-        <item itemvalue="JUnit.ParameterMapperTest.testInsertUser" />
-        <item itemvalue="JUnit.ParameterMapperTest.testCheckLoginByMap" />
-        <item itemvalue="JUnit.ParameterMapperTest.testCheckLogin" />
-        <item itemvalue="JUnit.ParameterMapperTest.testGetUserByUsername" />
+        <item itemvalue="JUnit.SelectMapperTest.testGetAllUserToMap" />
+        <item itemvalue="JUnit.SelectMapperTest.testGetUserByIdToMap" />
+        <item itemvalue="JUnit.SelectMapperTest.testGetCount" />
+        <item itemvalue="JUnit.SelectMapperTest.testGetAllUser" />
+        <item itemvalue="JUnit.SelectMapperTest.testGetUserById" />
       </list>
     </recent_temporary>
   </component>
@@ -212,7 +199,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655621587028</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="3st">
+      <created>1655699144354</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1655699144355</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -229,17 +223,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1st" />
     <MESSAGE value="2st" />
-    <option name="LAST_COMMIT_MESSAGE" value="2st" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/MyBatis_demo2/src/test/java/com/attoronto/mybatis/test/ParameterMapperTest.java</url>
-          <line>44</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="3st" />
+    <option name="LAST_COMMIT_MESSAGE" value="3st" />
   </component>
 </project>
