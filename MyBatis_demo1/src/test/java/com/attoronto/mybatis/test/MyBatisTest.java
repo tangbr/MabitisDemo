@@ -10,6 +10,7 @@ import org.junit.Test;
 
 import java.io.IOException;
 import java.io.InputStream;
+import java.util.List;
 
 public class MyBatisTest {
 
@@ -24,10 +25,11 @@ public class MyBatisTest {
         SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(is);
         SqlSession sqlSession = sqlSessionFactory.openSession(true);
         UserMapper mapper = sqlSession.getMapper(UserMapper.class);
-
-        User user = mapper.getUserById();
+        List<User> list = mapper.getAllUser();
+        list.forEach(user-> System.out.println(user));
+ /*       User user = mapper.getUserById();
         System.out.println(user);
-
+*/
 
        // mapper.updateUser();
        //  mapper.deleteUser();

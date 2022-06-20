@@ -2,6 +2,8 @@ package com.attoronto.mybatis.mapper;
 
 import com.attoronto.mybatis.pojo.User;
 
+import java.util.List;
+
 public interface UserMapper {
     /**
      * MyBatis 面向接口编程的两个一致：
@@ -30,8 +32,8 @@ public interface UserMapper {
      User getUserById();
 
 
-
-
-
-
+    /**
+     * 查询所有的用户信息
+     */
+    List<User> getAllUser();
 }
