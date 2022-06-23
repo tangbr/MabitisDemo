@@ -1,4 +1,8 @@
+package com.attoronto.mybatis.test;
+
+import com.attoronto.mybatis.mapper.DeptMapper;
 import com.attoronto.mybatis.mapper.EmpMapper;
+import com.attoronto.mybatis.pojo.Dept;
 import com.attoronto.mybatis.pojo.Emp;
 import com.attoronto.mybatis.utils.SqlSessionUtils;
 import org.apache.ibatis.session.SqlSession;
@@ -26,7 +30,47 @@ public class ResultMapTest {
      *     a>级联属性赋值
      *     b> association
      *     c> 分布查询
+     *
+     *     处理一对多的映射关系：
+     *     a>  collection
+     *     b> 分布查询
+     *     c>
+     *
+     *
+     *
      */
+
+    @Test
+    public void testGetDeptAndEmpByStep(){
+        SqlSession sqlSession = SqlSessionUtils.getSqlSession();
+        DeptMapper mapper = sqlSession.getMapper(DeptMapper.class);
+        Dept dept = mapper.getDeptAndEmpByStepOne(1);
+        System.out.println(dept);
+     //   System.out.println(dept.getDeptName());
+    }
+
+
+
+    @Test
+    public void testGetDeptAndEmp(){
+        SqlSession sqlSession = SqlSessionUtils.getSqlSession();
+        DeptMapper mapper = sqlSession.getMapper(DeptMapper.class);
+        Dept dept = mapper.getDeptAndEmp(1);
+        System.out.println(dept);
+    }
+
+
+    @Test
+    public  void testGetEmpAndDeptByStep02(){
+        SqlSession sqlSession = SqlSessionUtils.getSqlSession();
+        EmpMapper mapper = sqlSession.getMapper(EmpMapper.class);
+        Emp emp = mapper.getEmpAndDeptByStepOne(3);
+        System.out.println(emp.getEmpName());
+        System.out.println("++++++++++++++++++++++++");
+        System.out.println(emp.getDept());
+    }
+
+
 
 
     @Test

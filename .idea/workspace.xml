@@ -4,25 +4,35 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0a10fcfe-3508-4648-b3f5-f88092cfe4ba" name="Changes" comment="3st">
-      <change afterPath="$PROJECT_DIR$/MyBatis_demo2/src/main/java/com/attoronto/mybatis/mapper/SQLMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBatis_demo2/src/main/resources/com/attoronto/mybatis/mapper/SQLMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBatis_demo2/src/test/java/com/attoronto/mybatis/test/SQLMapperTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBatis_demo3/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBatis_demo3/src/main/java/com/attoronto/mybatis/mapper/DeptMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBatis_demo3/src/main/java/com/attoronto/mybatis/mapper/EmpMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBatis_demo3/src/main/java/com/attoronto/mybatis/pojo/Dept.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBatis_demo3/src/main/java/com/attoronto/mybatis/pojo/Emp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBatis_demo3/src/main/java/com/attoronto/mybatis/utils/SqlSessionUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBatis_demo3/src/main/resources/com/attoronto/mybatis/mapper/DeptMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBatis_demo3/src/main/resources/com/attoronto/mybatis/mapper/EmpMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBatis_demo3/src/main/resources/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBatis_demo3/src/main/resources/log4j.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBatis_demo3/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBatis_demo3/src/test/java/ResultMapTest.java" afterDir="false" />
+    <list default="true" id="0a10fcfe-3508-4648-b3f5-f88092cfe4ba" name="Changes" comment="June 21">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBatis_MBG/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBatis_MBG/src/main/resources/generatorConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBatis_MBG/src/main/resources/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBatis_MBG/src/main/resources/log4j.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBatis_MBG/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBatis_MBG/src/test/java/com/attoronto/mybatis/test/MBGTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBatis_MBG/src/test/java/com/attoronto/mybatis/test/PageHelperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBatis_demo3/src/main/java/com/attoronto/mybatis/mapper/CacheMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBatis_demo3/src/main/java/com/attoronto/mybatis/mapper/DynamicSQLMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBatis_demo3/src/main/resources/com/attoronto/mybatis/mapper/CacheMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBatis_demo3/src/main/resources/com/attoronto/mybatis/mapper/DynamicSQLMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBatis_demo3/src/main/resources/ehcache.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBatis_demo3/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBatis_demo3/src/test/java/com/attoronto/mybatis/test/CacheMapperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBatis_demo3/src/test/java/com/attoronto/mybatis/test/DynamicSQLMapperTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyBatis_demo3/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MyBatis_demo3/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyBatis_demo3/src/main/java/com/attoronto/mybatis/mapper/DeptMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/MyBatis_demo3/src/main/java/com/attoronto/mybatis/mapper/DeptMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyBatis_demo3/src/main/java/com/attoronto/mybatis/mapper/EmpMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/MyBatis_demo3/src/main/java/com/attoronto/mybatis/mapper/EmpMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyBatis_demo3/src/main/java/com/attoronto/mybatis/pojo/Dept.java" beforeDir="false" afterPath="$PROJECT_DIR$/MyBatis_demo3/src/main/java/com/attoronto/mybatis/pojo/Dept.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyBatis_demo3/src/main/java/com/attoronto/mybatis/pojo/Emp.java" beforeDir="false" afterPath="$PROJECT_DIR$/MyBatis_demo3/src/main/java/com/attoronto/mybatis/pojo/Emp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyBatis_demo3/src/main/resources/com/attoronto/mybatis/mapper/DeptMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MyBatis_demo3/src/main/resources/com/attoronto/mybatis/mapper/DeptMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyBatis_demo3/src/main/resources/com/attoronto/mybatis/mapper/EmpMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MyBatis_demo3/src/main/resources/com/attoronto/mybatis/mapper/EmpMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyBatis_demo3/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MyBatis_demo3/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyBatis_demo3/src/test/java/ResultMapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MyBatis_demo3/src/test/java/com/attoronto/mybatis/test/ResultMapTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,9 +45,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="mybatis-config" />
         <option value="Interface" />
         <option value="mybatis-mapper" />
+        <option value="mybatis-config" />
         <option value="Class" />
       </list>
     </option>
@@ -72,8 +82,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "jdk.selected.JAVA_MODULE": "11",
-    "last_opened_file_path": "C:/Users/bruce/IdeaProjects/MyBatis/MyBatis_demo3/src/main/resources",
-    "project.structure.last.edited": "Project",
+    "last_opened_file_path": "C:/Users/bruce/IdeaProjects/MyBatis/MyBatis_MBG/src/main/resources",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "fileTemplates"
@@ -81,6 +91,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\bruce\IdeaProjects\MyBatis\MyBatis_MBG\src\main\resources" />
       <recent name="C:\Users\bruce\IdeaProjects\MyBatis\MyBatis_demo3\src\main\resources" />
       <recent name="C:\Users\bruce\IdeaProjects\MyBatis\MyBatis_demo2\src\main\resources" />
     </key>
@@ -94,39 +105,9 @@
       <recent name="com.attoronto.mybatis.pojo" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ResultMapTest.testGetEmpAndDeptByStep">
-    <configuration name="ResultMapTest.testGetAllEmp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.PageHelperTest.testPageHelper">
+    <configuration name="CacheMapperTest.testCache" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MyBatis_demo3" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ResultMapTest" />
-      <option name="METHOD_NAME" value="testGetAllEmp" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ResultMapTest.testGetEmpAndDept" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MyBatis_demo3" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ResultMapTest" />
-      <option name="METHOD_NAME" value="testGetEmpAndDept" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ResultMapTest.testGetEmpAndDeptByStep" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MyBatis_demo3" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ResultMapTest" />
-      <option name="METHOD_NAME" value="testGetEmpAndDeptByStep" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SQLMapperTest.testInsertUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MyBatis_demo2" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.attoronto.mybatis.test.*" />
@@ -134,15 +115,15 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.attoronto.mybatis.test" />
-      <option name="MAIN_CLASS_NAME" value="com.attoronto.mybatis.test.SQLMapperTest" />
-      <option name="METHOD_NAME" value="testInsertUser" />
+      <option name="MAIN_CLASS_NAME" value="com.attoronto.mybatis.test.CacheMapperTest" />
+      <option name="METHOD_NAME" value="testCache" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SQLMapperTest.testJDBC" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MyBatis_demo2" />
+    <configuration name="CacheMapperTest.testTwoCache" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyBatis_demo3" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.attoronto.mybatis.test.*" />
@@ -150,8 +131,56 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.attoronto.mybatis.test" />
-      <option name="MAIN_CLASS_NAME" value="com.attoronto.mybatis.test.SQLMapperTest" />
-      <option name="METHOD_NAME" value="testJDBC" />
+      <option name="MAIN_CLASS_NAME" value="com.attoronto.mybatis.test.CacheMapperTest" />
+      <option name="METHOD_NAME" value="testTwoCache" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DynamicSQLMapperTest.testGetEmpByCondition" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyBatis_demo3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.attoronto.mybatis.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.attoronto.mybatis.test" />
+      <option name="MAIN_CLASS_NAME" value="com.attoronto.mybatis.test.DynamicSQLMapperTest" />
+      <option name="METHOD_NAME" value="testGetEmpByCondition" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MBGTest.testMBG" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyBatis_MBG" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.attoronto.mybatis.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.attoronto.mybatis.test" />
+      <option name="MAIN_CLASS_NAME" value="com.attoronto.mybatis.test.MBGTest" />
+      <option name="METHOD_NAME" value="testMBG" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PageHelperTest.testPageHelper" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyBatis_MBG" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.attoronto.mybatis.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.attoronto.mybatis.test" />
+      <option name="MAIN_CLASS_NAME" value="com.attoronto.mybatis.test.PageHelperTest" />
+      <option name="METHOD_NAME" value="testPageHelper" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -159,11 +188,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ResultMapTest.testGetEmpAndDeptByStep" />
-        <item itemvalue="JUnit.ResultMapTest.testGetEmpAndDept" />
-        <item itemvalue="JUnit.ResultMapTest.testGetAllEmp" />
-        <item itemvalue="JUnit.SQLMapperTest.testInsertUser" />
-        <item itemvalue="JUnit.SQLMapperTest.testJDBC" />
+        <item itemvalue="JUnit.PageHelperTest.testPageHelper" />
+        <item itemvalue="JUnit.MBGTest.testMBG" />
+        <item itemvalue="JUnit.CacheMapperTest.testTwoCache" />
+        <item itemvalue="JUnit.CacheMapperTest.testCache" />
+        <item itemvalue="JUnit.DynamicSQLMapperTest.testGetEmpByCondition" />
       </list>
     </recent_temporary>
   </component>
@@ -211,7 +240,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655706197558</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="June 21">
+      <created>1655790540619</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1655790540619</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -229,6 +265,7 @@
     <MESSAGE value="1st" />
     <MESSAGE value="2st" />
     <MESSAGE value="3st" />
-    <option name="LAST_COMMIT_MESSAGE" value="3st" />
+    <MESSAGE value="June 21" />
+    <option name="LAST_COMMIT_MESSAGE" value="June 21" />
   </component>
 </project>

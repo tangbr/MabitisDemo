@@ -1,8 +1,11 @@
 package com.attoronto.mybatis.pojo;
 
+import java.util.List;
+
 public class Dept {
     private Integer did;
     private  String deptName;
+    private List<Emp> emps;
 
     public Dept(Integer did, String deptName) {
         this.did = did;
@@ -10,6 +13,14 @@ public class Dept {
     }
 
     public Dept() {
+    }
+
+    public List<Emp> getEmps() {
+        return emps;
+    }
+
+    public void setEmps(List<Emp> emps) {
+        this.emps = emps;
     }
 
     public Integer getDid() {
@@ -33,6 +44,7 @@ public class Dept {
         return "Dept{" +
                 "did=" + did +
                 ", deptName='" + deptName + '\'' +
+                ", emps=" + emps +
                 '}';
     }
 }
